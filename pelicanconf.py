@@ -23,7 +23,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = ()
+LINKS = (
+    ('The Git Adventure', '/the-git-adventure.html'),
+)
 
 # Social widget
 SOCIAL = (
