@@ -1,0 +1,115 @@
+Planning
+########
+
+
+Post 1: Introduction
+--------------------
+
+ + Introduction to the blog series
+ + What's git
+ + Why using git over other technologies
+ + Index of the blog posts
+
+
+Post 1.5: Prerrequisites
+------------------------
+
+
+Post 2: Basics (I)  -> Workin' forever alone
+------------------
+
+ + git init
+ + git add
+ + git commit
+ + git status
+ + git log
+
+
+Post 3: Basics (II)  -> Bragging about your code
+-------------------
+
+ + Github/Bitbucket
+ + git remote
+ + git push
+
+
+Post 4: Basics (III)  -> Enjoying other's code
+--------------------
+
+ + git clone
+ + git pull
+
+
+Post 5: Basics (IV)  -> Isolating code
+-------------------
+
+ + git branch
+ + git checkout
+ + git merge
+ + git fetch
+
+
+
+Post 5.5: Interlude  -> I screwed it up
+-------------------
+
+ + git reset --soft    --> Warning: At this stage, use only before pushing
+ + git reset --hard    --> Warning: At this stage, use only before pushing
+ + git commit --amend  --> Warning: At this stage, use only before pushing
+ + git pull --rebase
+
+
+
+Post 6: Intermediate (I)  -> It's not magic, but science!
+------------------------
+
+  + git internals  -> How a commit is stored, what are branches, what is HEAD
+
+
+Post 7: Intermediate (II)  -> Let's share our skills with the world
+-------------------------
+
+  + Github/bitbucket Pull Requests
+
+
+Post 8: Intermediate (III)  -> Best practices
+--------------------------
+
+ + git tag
+ + git flow
+
+
+Post 9: Intermediate (IV)  -> The right merge for the right branch
+-------------------------
+
+ + git merge --no-ff
+ + git merge --ff-only
+
+
+Post 10: Intermediate (V)  -> Identify the culprit
+-------------------------
+
+ + git blame
+
+
+Post 11: Advanced (I)  -> Let's rewrite history!!
+---------------------
+
+ + git rebase
+ + git push --force
+
+
+Post 12: Advanced (II)  -> Keeping your branches clean
+----------------------
+
+ + git commit --fixup
+ + git rebase -i
+
+
+Post 13: Advanced (II)  -> Screw ups II
+----------------------
+
+ + git checkout commit/HEAD -- <file>
+ + git cherry-pick <commit>
+
+
