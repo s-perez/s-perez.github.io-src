@@ -74,7 +74,7 @@ repository, you will see something like this:
 
 Which basically means you don't have anything there for git to use
 (let's forget about the "branch master" part. We'll talk about that soon,
-but not today. Let's try creating an empty file in the project. If
+but not today). Let's try creating an empty file in the project. If
 we run `git status` again, we'll see this:
 
     On branch master
@@ -111,7 +111,7 @@ and git will add all matched files. Let's see an example of every use.
 #### Adding a single file
 
 Keeping with the same repository we created before, let's run `git add
-a`. It seems that nothing is happening, but if we run again `git status`
+foo`. It seems that nothing is happening, but if we run again `git status`
 we'll see that git has marked this file as `staged`:
 
     On branch master
