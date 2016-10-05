@@ -272,13 +272,11 @@ A lot of info here. Let's go bit by bit.
 **[master** --> That's the name of the branch we are in. We'll talk
 about them in another post.
 
-**(root-commit)** --> This indicates that this is the first commit in
-the whole repository.
+**(root-commit)** --> This indicates that this commit is the first one
+of this repository, In future commits this will not appear.
 
 **14e2905]** --> This is the identifier of this commit (the reduced
-version). It's probably different in your case. The next time you create
-a new commit in the repository, you will see this identifier instead of
-the *root-commit* we saw before.
+version). It's probably different in your case.
 
 **3 files changed, 0 insertions(+), 0 deletions(-)** --> This is a brief
 of what happened in this commit in terms of what did you add. In this
