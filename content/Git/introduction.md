@@ -38,12 +38,22 @@ For this tutorial you are going to need to have git installed.
 You can do so by following
  [these instructions](git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
+After having installed it, you will need to configure two things: Your
+name and your email. These will be used by git to identify who made
+every change in the code. To do so, you'll need to run these two
+commands:
+
+ + `git config --global user.name "Your Name"
+ + `git config --global user.email "your@email.com"``
+
+_The --global option is used to set those two data as the default for all
+your git projects._
 
 ## Index
 
 ### Basics: Crafting the key to Wonderland
 
- + Working forever alone
+ + [Working forever alone]({filename}/Git/BasicI.md)
  + Interlude #1: Shit happens. Let's be prepared for it
  + Isolating your code
  + Bragging about your code
